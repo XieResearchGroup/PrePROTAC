@@ -1,0 +1,4 @@
+444
+DPC
+{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  0 0.7274972836563321

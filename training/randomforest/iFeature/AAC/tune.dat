@@ -1,0 +1,4 @@
+444
+AAC
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+non nested score:  0 0.6636977028381562

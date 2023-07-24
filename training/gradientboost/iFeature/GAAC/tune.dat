@@ -1,0 +1,4 @@
+444
+GAAC
+{'max_depth': 10, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 200}
+non nested score:  0 0.6722579365500928

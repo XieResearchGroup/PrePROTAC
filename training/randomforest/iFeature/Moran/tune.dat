@@ -1,0 +1,4 @@
+444
+Moran
+{'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 200}
+non nested score:  0 0.734898992114595

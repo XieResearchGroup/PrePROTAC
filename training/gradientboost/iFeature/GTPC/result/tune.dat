@@ -1,0 +1,26 @@
+{'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}
+non nested score:  0 0.7308553712161389
+{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 8, 'n_estimators': 200}
+non nested score:  1 0.7042669928960492
+{'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 300}
+non nested score:  2 0.7282427509966831
+{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+non nested score:  3 0.7381091938955059
+{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 400}
+non nested score:  4 0.7266398891923952
+{'max_depth': 6, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 100}
+non nested score:  5 0.6874753710308071
+{'max_depth': 6, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 200}
+non nested score:  6 0.7108367412089428
+{'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  7 0.711057366276435
+{'max_depth': 5, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 200}
+non nested score:  8 0.7238456017656555
+{'max_depth': 6, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 400}
+non nested score:  9 0.7245637872271804
+{'max_depth': 6, 'min_samples_leaf': 2, 'min_samples_split': 8, 'n_estimators': 400}
+non nested score:  10 0.7169267051759454
+{'max_depth': 7, 'min_samples_leaf': 3, 'min_samples_split': 6, 'n_estimators': 200}
+non nested score:  11 0.7155175194888747
+{'max_depth': 7, 'min_samples_leaf': 3, 'min_samples_split': 8, 'n_estimators': 200}
+non nested score:  12 0.7420607210902164

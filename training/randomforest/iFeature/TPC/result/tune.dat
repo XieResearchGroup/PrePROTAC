@@ -1,0 +1,4 @@
+444
+TPC
+{'max_depth': 9, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 200}
+non nested score:  0 0.7565987661657718

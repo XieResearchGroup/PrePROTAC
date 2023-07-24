@@ -1,0 +1,4 @@
+444
+KSCTriad
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  0 0.7388976134702918

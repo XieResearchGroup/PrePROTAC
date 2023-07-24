@@ -1,0 +1,10 @@
+{'max_depth': 9, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 400}
+non nested score:  0 0.7311284100631447
+{'max_depth': 8, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 400}
+non nested score:  1 0.6970179423613156
+{'max_depth': 6, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 400}
+non nested score:  2 0.6817665929111011
+{'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 400}
+non nested score:  3 0.7247719209889459
+{'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 200}
+non nested score:  4 0.7271788670793701

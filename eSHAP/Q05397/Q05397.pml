@@ -1,0 +1,1 @@
+resi 546 or resi 566 or resi 551 or resi 563 or resi 509 or resi 496 or resi 454 or resi 506 or resi 508 or resi 453 or resi 573 or resi 635 or resi 499 or resi 553 or resi 613 or resi 562 or resi 617 or resi 589 or resi 501 or resi 636 or 

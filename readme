@@ -1,0 +1,107 @@
+
+########## Additional packages need to be installed ########
+
+csv, torch, numpy, getopt, sys, sklearn, pandas, matplotlib
+
+The home directory is ~/PrePROTAC. If you save the package with different path, please change ~/PrePROTAC to your local path. 
+
+########### Prediction of PrePROTAC model and eSHAP analysis ###########
+
+1. prediction of PrePROTAC model on target proteins
+
+~/PrePROTAC/prediction :  Prediction on target proteins
+
+~/PrePROTAC/prediction/src : source codes for PrePROTAC prediction
+
+predict.py : prediction on target proteins
+
+proteinlist_file should be the file which contains the names of the target proteins. As an example, the first column of human-protein.list file under human-protein directory lists the ENSP IDs for human proteins.
+
+After preparing proteinlist_file and pre-trained embedding feature files for the target proteins, the prediction can be done by the command "python ./predict.py".
+
+~/PrePROTAC/prediction/human-protein : prediction on human proteins
+
+~/PrePROTAC/prediction/human-protein/data : pre-trained embedding ESM features for human proteins
+
+Limited by the sizes of these features files, only the codes to generate the feature files are listed here. You can follow the same step to generate feature files for target proteins.
+
+~/PrePROTAC/prediction/human-protein/src : source codes to generate pre-trainedESM features.
+
+run-esm.sh : shell script to run ESM model and get the pre-trained esm features.
+
+ESM scripts can be download from https://github.com/facebookresearch/esm
+
+print-esm.sh  : print out readble feature files.
+
+After getting the ESM feature files, please move these files to feature data directory. For example, ~/PrePROTAC/prediction/human-protein/data under human-protein directory.
+
+2. eSHAP analysis
+~/PrePROTAC/eSHAP : eSHAP analysis to get key residues.
+
+~/PrePROTAC/eSHAP/Q05397 : using FAK protein kinase domain as an example
+
+~/PrePROTAC/eSHAP/src : source codes for eSHAP analysis
+
+mutateseq.py : mutate the residue one by one along protein sequence
+
+The mutated sequences should be put into a single file, like Q05397_mutated.fasta in Q05397 directory.
+
+run-esm.sh : the script to run ESM and generate the pre-trained embedding ESM features for the mutated sequences. These files should be saved in ./pt_data directory for the target protein.
+
+getdataset.py : Generate the readable feature files for the mutated sequences. These files should be saved in ./data directory for the target protein.
+
+calkstest.py : Measure the influence of each position to the most important features and rank them according to their scores.
+
+
+######### Model  training and testing ##############
+
+
+1. Pre-trained embedding features
+
+~/PrePROTAC/featuredata : pre-trained embedding ESM features, Dscript features and iFeature for the whole training set
+
+2.  Model training 
+
+~/PrePROTAC/training/randomforest: Training of random forest model with different features. 
+~/PrePROTAC/training/gradientboost : Training of gradient boost model with different features.
+
+~/PrePROTAC/training/randomforest/esm: random forest model with ESM features
+
+src/: source codes for training and validation  
+
+esmfeature_datapath in the python codes defines directory for the pre-trained embedding ESM features. When you run the program, please change it to the path on your local machine where the pre-trained embedding features are saved.  
+
+hypertrainesm.py: hyper-parameter tuning
+
+cvfigure.py: cross validation for random forest model
+
+~/PrePROTAC/training/randomforest/dscript: random forest model with Dscript feature
+
+~/PrePROTAC/training/randomforest/iFeature : random forest model with iFeature
+
+The files for the gradient boost model follow the same architecture with the random forest model.
+
+
+3. external test set
+
+~/PrePROTAC/testset/protac-DB-CF : cross validation on the test set in which the negative proteins are selected from different SCOP folds with the positive proteins. 
+
+~/PrePROTAC/testset/protac-DB-scop : cross validation on the test set in which the negative proteins are selected from different SCOP superfamilies with the positive proteins.
+
+
+4. Final soft voting model 
+
+~/PrePROTAC/finalmodel : the final PrePROTAC model 
+
+
+~/PrePROTAC/finalmodel/trainingkinase/data : pre-trained embedding ESM features for the whole training set
+
+~/preprotac/finalmodel/10-models : the selected 10 models which were used to build the final soft voting classifying model 
+
+~/PrePROTAC/finalmodel/src : source codes for cross validation of the final model 
+
+printmodel.py : Repeated Stratified K-Fold cross validation of random forest model on the whole training set and print out the 10 models 
+
+predict.py : final soft voting model used for prediction
+
+calculateshapall.py : shap analysis to obtain the most important features 

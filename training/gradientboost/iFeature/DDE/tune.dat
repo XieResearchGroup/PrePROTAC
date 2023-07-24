@@ -1,0 +1,4 @@
+444
+DDE
+{'max_depth': 6, 'min_samples_leaf': 2, 'min_samples_split': 8, 'n_estimators': 400}
+non nested score:  0 0.6809717176805806

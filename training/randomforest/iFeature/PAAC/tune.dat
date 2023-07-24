@@ -1,0 +1,4 @@
+444
+PAAC
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 400}
+non nested score:  0 0.706659124441464

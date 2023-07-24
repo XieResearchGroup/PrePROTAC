@@ -1,0 +1,17 @@
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+non nested score:  0 0.784570923345148
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}
+non nested score:  1 0.7680873636887453
+{'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 6, 'n_estimators': 100}
+non nested score:  2 0.7684473161496317
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  3 0.7851215870792514
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+non nested score:  4 0.7821705792724138
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 100}
+non nested score:  5 0.7610086439767907
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+non nested score:  6 0.7696964944399237
+{'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 200}
+non nested score:  7 0.7767699778614192
+

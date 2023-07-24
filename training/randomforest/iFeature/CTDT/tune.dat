@@ -1,0 +1,4 @@
+444
+CTDT
+{'max_depth': 7, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 100}
+non nested score:  0 0.6304267353429133

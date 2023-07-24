@@ -1,0 +1,4 @@
+444
+APAAC
+{'max_depth': 8, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+non nested score:  0 0.7231195293370745

@@ -1,0 +1,4 @@
+444
+QSOrder
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 400}
+non nested score:  0 0.7016763287030578

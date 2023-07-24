@@ -1,0 +1,4 @@
+444
+CKSAAGP
+{'max_depth': 8, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 200}
+non nested score:  0 0.7217497377106631

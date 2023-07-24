@@ -1,0 +1,84 @@
+444
+AAC
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+non nested score:  0 0.6636977028381562
+444
+EAAC
+444
+CKSAAP
+{'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 400}
+non nested score:  0 0.7509888571752118
+444
+DPC
+{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  0 0.7274972836563321
+444
+DDE
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+non nested score:  0 0.717859565668346
+444
+TPC
+{'max_depth': 9, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 200}
+non nested score:  0 0.7565987661657718
+444
+BINARY
+444
+GAAC
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 100}
+non nested score:  0 0.6498699473772642
+444
+EGAAC
+444
+CKSAAGP
+{'max_depth': 8, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 200}
+non nested score:  0 0.7217497377106631
+444
+GDPC
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 100}
+non nested score:  0 0.697663219093252
+444
+AAINDEX
+444
+ZSCALE
+444
+BLOSUM62
+444
+NMBroto
+{'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 100}
+non nested score:  0 0.7269537196517564
+444
+Moran
+{'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 200}
+non nested score:  0 0.734898992114595
+444
+CTDC
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+non nested score:  0 0.6681780105640268
+444
+CTDT
+{'max_depth': 7, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 100}
+non nested score:  0 0.6304267353429133
+444
+CTDD
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+non nested score:  0 0.7137558625013964
+444
+KSCTriad
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 300}
+non nested score:  0 0.7388976134702918
+444
+SOCNumber
+{'max_depth': 10, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 100}
+non nested score:  0 0.6463937467963774
+444
+QSOrder
+{'max_depth': 9, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 400}
+non nested score:  0 0.7016763287030578
+444
+PAAC
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 400}
+non nested score:  0 0.706659124441464
+444
+APAAC
+{'max_depth': 8, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+non nested score:  0 0.7231195293370745
