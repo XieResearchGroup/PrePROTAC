@@ -53,7 +53,7 @@ getdataset.py : Generate the readable feature files for the mutated sequences. T
 calkstest.py : Measure the influence of each position to the most important features and rank them according to their scores.
 
 
-######### Model  training and testing ##############
+######### Model training and testing ##############
 
 
 1. Pre-trained embedding features
